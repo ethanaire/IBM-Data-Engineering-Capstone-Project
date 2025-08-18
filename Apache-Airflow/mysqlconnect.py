@@ -2,11 +2,13 @@
 # Install it using the below command
 # pip3 install mysql-connector-python
 
+# Install the connector using the command: python3.11 -m pip install mysql-connector-python
+
 import mysql.connector
 
 # connect to database
 # You can get the Hostname and Password from the connection information section of Mysql 
-connection = mysql.connector.connect(user='root', password='<replace with your Mysql password>',host='<replace with your Mysql hostname>',database='sales')
+connection = mysql.connector.connect(user='root', password='4UqHQRfJd74cj2f97qEB6ngU',host='172.21.54.124',database='sales')
 
 # create cursor
 
